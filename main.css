@@ -1,6 +1,7 @@
 body{
     margin: 0;
     background-color: #11111f;
+    font-family: 'Reem Kufi', sans-serif;
 }
 header{
     height: 70px;
@@ -15,7 +16,6 @@ header{
     box-sizing: border-box;
     background-color: #1a1a2b;
 }
-
 #logo a{
     padding: 10px;
     font-size: 40px;
@@ -43,4 +43,54 @@ nav a{
     color: #2cd5c4;
     text-transform: uppercase;
     text-shadow: 1px 1px 2px #363737;
+}
+
+#about{
+    width: 900px;
+    box-shadow: 2PX 4PX 110PX rgb(84, 82, 82);
+    border-radius: 8px;
+    border-color: white;
+    border-width: 1px;
+    padding: 40px 0;
+    margin: 0 auto;
+    position: relative;
+    top: 200px;
+}
+
+#about h1{
+    text-align: center;
+    color: #2cd5c4; 
+    font-size: 35px;
+}
+
+#about article{
+    color: #a3a3ab;
+    font-size: 26px;
+    padding: 0 20px;
+    
+}
+
+#skills{
+    width: 900px;
+    box-shadow: 2PX 4PX 110PX rgb(84, 82, 82);
+    border-radius: 8px;
+    border-color: white;
+    border-width: 1px;
+    padding: 40px 0;
+    margin: 0 auto;
+    position: relative;
+    top: 200px;
+}
+
+#skills h1{
+    text-align: center;
+    color: #2cd5c4; 
+    font-size: 35px;
+}
+
+#skills article{
+    color: #a3a3ab;
+    font-size: 26px;
+    padding: 0 20px;
+    
 }
