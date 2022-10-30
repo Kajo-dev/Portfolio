@@ -1,96 +1,110 @@
-body{
+*{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    margin: auto;
+    width: 100%;
+    position: relative;
     background-color: #11111f;
     font-family: 'Reem Kufi', sans-serif;
 }
-header{
-    height: 70px;
-    padding: 0 20px;
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    width: 100%;
+    height: 80px;
+    padding: 0 5vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: absolute;
-    width: 100%;
-    top: 0;
-    left: 0;
-    box-sizing: border-box;
-    background-color: #1a1a2b;
-}
-#logo a{
-    padding: 10px;
-    font-size: 40px;
-    color: #2cd5c4;
-    text-decoration: none;
-    text-transform: uppercase;
-    text-shadow: 1px 1px 2px rgb(0, 0, 0);
-}
 
-header ul{
+}
+.logo{
+    font-size: 37px;
+    color: #2cd5c4;
+}
+.nav-links{
     display: flex;
     list-style: none;
-    margin: 0;
-    padding: 0;
 }
-
-header li{
-    margin-left: 20px;
+.nav-link{
+    margin-right: 30px;
+    font-size: 26px;
 }
-
-nav a{
-    font-size: 20px;
-    padding: 20px;
+.links{
     text-decoration: none;
-    color: #2cd5c4;
-    text-transform: uppercase;
-    text-shadow: 1px 1px 2px #363737;
+    color: #a3a3ab;
 }
 
-#about{
-    width: 900px;
+
+#about-section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+#about-content{
+    width: 110vh;
     box-shadow: 2PX 4PX 110PX rgb(84, 82, 82);
     border-radius: 8px;
     border-color: white;
     border-width: 1px;
     padding: 40px 0;
     margin: 0 auto;
-    position: relative;
-    top: 200px;
 }
 
-#about h1{
+#about-content h1{
     text-align: center;
     color: #2cd5c4; 
     font-size: 35px;
 }
 
-#about article{
+#about-content article{
     color: #a3a3ab;
     font-size: 26px;
     padding: 0 20px;
     
 }
 
-#skills{
-    width: 900px;
+/* skills & tools section */
+#skill-section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+#skilss-content{
+    width: 110vh;
     box-shadow: 2PX 4PX 110PX rgb(84, 82, 82);
     border-radius: 8px;
     border-color: white;
     border-width: 1px;
-    padding: 40px 0;
+    padding: 10px 0;
     margin: 0 auto;
-    position: relative;
-    top: 200px;
+    align-items: center;
 }
 
-#skills h1{
+#skilss-content h2{
     text-align: center;
     color: #2cd5c4; 
     font-size: 35px;
+    
 }
 
-#skills article{
+.skilss-icon{
     color: #a3a3ab;
-    font-size: 26px;
-    padding: 0 20px;
-    
+    margin-top: 3%;
+    font-size: 7em;
+    padding: 5px;  
+    display: flex;
+    justify-content: space-between; 
 }
