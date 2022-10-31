@@ -108,3 +108,18 @@ body{
     display: flex;
     justify-content: space-between; 
 }
+
+/*Projects section*/
+#projects-section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+#projects-section h2{
+    text-align: center;
+    color: #2cd5c4; 
+    font-size: 35px;
+    
+}
